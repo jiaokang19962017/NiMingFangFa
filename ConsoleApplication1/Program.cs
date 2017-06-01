@@ -10,6 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            /*  an a = delegate (int x) { return x + 2; };
+              Console.WriteLine(a(9));*/
+
+            //lambda表达式
+            otherdelegate other1 = (int x) => { return x + 1; };
         }
     }
 }
