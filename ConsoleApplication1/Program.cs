@@ -15,6 +15,11 @@ namespace ConsoleApplication1
 
             //lambda表达式
             otherdelegate other1 = (int x) => { return x + 1; };
+            otherdelegate other2 =  x => { return x + 1; };
+            otherdelegate other3 = x =>  x + 1;
+            otherdelegate2 ot = (x, y) => { x = (int)Math.Pow(x, 4);y *= 2; return x + y + 1; };
+            Console.WriteLine(other2(7));
+            Console.WriteLine(ot(3,9));
         }
     }
 }

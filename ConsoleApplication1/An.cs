@@ -9,6 +9,8 @@ namespace ConsoleApplication1
     public delegate int an(int number);
     public delegate int pn(int x,params int[] arrayint);
     public delegate int otherdelegate(int number);
+    public delegate int otherdelegate2(int number,int number2);
+
 
     class An
     {
