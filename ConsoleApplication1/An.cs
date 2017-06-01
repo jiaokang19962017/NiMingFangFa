@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace ConsoleApplication1
     public delegate int otherdelegate(int number);
     public delegate int otherdelegate2(int number,int number2);
 
+    public delegate int Persondelegate2(ArrayList array,  Array[] number);
 
     class An
     {
